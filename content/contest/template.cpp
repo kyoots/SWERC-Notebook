@@ -1,20 +1,27 @@
-// #pragma GCC optimize("O2")
 #include <bits/stdc++.h>
 using namespace std;
+typedef long long int ll;
+template<typename A, typename B> void df(const std::pair<A, B>& p) { std::cout << "(" << p.first << ", " << p.second << ")" << endl; }
+template<typename C> void df(const C& c) { std::cout << "{"; for (const auto& e : c) std::cout << e << ", "; std::cout << "}" << endl; }
+
+template<typename T>
+using vec = vector<T>;
+typedef pair<int, int> pii;
+typedef vec<int> vi;
 
 #define rep(i, a, b) for(int i = a; i < (b); ++i)
 #define all(x) begin(x), end(x)
 #define sz(x) (int)(x).size()
-#define MSB(x) (63 - __builtin_clzll(ll(x)))
-#define bit(x, b) ((x >> b) & 1)
-typedef long long ll;
-typedef pair<int, int> pii;
-typedef vector<int> vi;
-template<typename T>
-using vec = vector<T>
 
-int32_t main() {
-	ios::sync_with_stdio(0);cin.tie(0); cout.tie(0);
-	cin.exceptions(cin.failbit);
+void solve() {
+    
 }
-//bs._Find_first() ._Find_next(i) .set() .reset() .count()
+
+int main() {
+    ios::sync_with_stdio(0); cin.tie(0);
+    ll tc = 1;
+    //cin >> tc;
+    for (ll i = 1; i <= tc; i++) {
+        solve();
+    }
+}
